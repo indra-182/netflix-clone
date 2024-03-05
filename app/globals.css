@@ -94,7 +94,7 @@ body {
 }
 
 .nav-right {
-  @apply flex gap-8 items-center;
+  @apply flex gap-3 items-center;
 }
 
 .profile {

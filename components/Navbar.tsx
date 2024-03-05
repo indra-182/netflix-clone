@@ -52,7 +52,7 @@ const Navbar = () => {
         <div className="search">
           <input
             className="input-search font-nsans-light"
-            placeholder="Search movie..."
+            placeholder="Search movie here"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
@@ -65,7 +65,7 @@ const Navbar = () => {
         </div>
 
         <img
-          className="profile hover:border-2 hover:border-pink-1 cursor-pointer"
+          className="profile hover:border-2 hover:border-red-500 cursor-pointer mr-5"
           src="/assets/images/profile.jpg"
           alt="profile"
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
