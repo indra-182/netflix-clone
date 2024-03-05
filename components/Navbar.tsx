@@ -74,7 +74,7 @@ const Navbar = () => {
         {isDropdownOpen && (
           <div className="dropdown-menu">
             <Link href="/">Home</Link>
-            <Link href="/">My Favorites</Link>
+            <Link href="/myfavorites">My Favorites</Link>
             <a onClick={handleLogout}>Logout</a>
           </div>
         )}
