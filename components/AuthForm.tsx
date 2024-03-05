@@ -100,6 +100,7 @@ const AuthForm = ({ type }: { type: "login" | "register" }) => {
                     type="text"
                     placeholder="Username"
                     className="input-field"
+                    autoComplete="off"
                   />
                   <PersonOutlined sx={{ color: "white" }} />
                 </div>
@@ -117,6 +118,7 @@ const AuthForm = ({ type }: { type: "login" | "register" }) => {
                 type="email"
                 placeholder="Email"
                 className="input-field"
+                autoComplete="on"
               />
               <EmailOutlined sx={{ color: "white" }} />
             </div>
